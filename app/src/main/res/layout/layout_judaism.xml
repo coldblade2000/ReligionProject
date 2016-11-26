@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/judaism"
+            android:layout_gravity="center_horizontal"
+            android:elevation="8dp"
+            android:cropToPadding="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Beliefs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judaism is a mono-theistic religion that follows an omnipotent Abrahamic God, who they call Yahweh. They follow the Tanakh, their holy book. It is the oldest Abrahamic religion and one of the oldest religions of the world. Like other religions, they believe in a figure that would eventually come to 'rescue the righteous, judge the wicked, and restore peace to the world. This figure is called the Messiah. There is very little mention in the Tanakh about the afterlife. The Tanakh is full of stories, most of which carry with them a certain teaching or message important for all Jews to know."/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Origins" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judaism was founded in Israel about 4000 years ago. Abraham is thought to be the founder of Judaism and the Father of all Jews. Moses, as in the Moses who split the red sea gave the Torah to the jews around the year 1250 BC. This book contains the laws of Judaism." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Customs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judaism is often represented using a Menorah, a candelabrum that holds seven or nine candles. It is used in Hanukkah. Hanukkah is an important festival for Jews, it is an 8 day long festival which celebrates the religion's survival against persecution in Israel and other parts of the world, and the miracle of the burning oil, where the oil for a Menorah burned for 8 days somehow, even though the Menorah had oil for just one day." />
+    </LinearLayout>
+
+</ScrollView>

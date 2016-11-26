@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/crescent"
+            android:layout_gravity="center_horizontal"
+            android:elevation="8dp"
+            android:cropToPadding="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Beliefs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Islam is a mono-theistic religion, that believes in the Abrahamic god. They follow the teachings of the Quran, the muslim holy book. They believe in various prophets, most notably Muhammad, however other prophets and messengers exist, such as Ibrahim, Ilias, Isa (Also known as Jesus, but muslims believe him to be merely a prophet) and Musa. Prophets are normal mortals, and do not carry any degree of divinity. In Islam, there is an afterlife, and in the day of judgement, all humans will be divided into Paradise and Hell." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Origins" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Islam was started by the prophet Muhammad. Before Muhammad's teachings, Mecca was chock-ful of different religions and beliefs, most of them polytheistic. Allah was considered by some to be one of many gods, but there was a sect called the 'hanifs' that believed Allah to be the ONLY god. That is where Islam comes from." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Customs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muslims use the Lunar calendar, and there is no way to relate it to the solar calendar, so sometimes the holidays occur in different seasons. Ramadan is a month where all muslims (except the elderly, sick and kids who haven't gone through puberty) are supposed to fast, and abstain from other activities such as smoking, drinking or sexual activities. Muslims are supposed to pray five times a day. They are also expected to travel at least once in their life to the holy city of Mecca, an action known as the Hajj" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/christianity"
+            android:layout_gravity="center_horizontal"
+            android:elevation="8dp"
+            android:cropToPadding="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Beliefs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christianity is a mono-theistic Abrahamic religion. They believe in a God, who at one point made himself into a human in order to spread his word to the mortals.
+            Christianity follows the teaching of the Holy Bible.
+            Christianity has evolved to be a general term for different branches, or denominations.
+            The three main denominations are Roman Catholicism, Eastern Orthodoxy and Protestantism.
+            The different mostly consists of which historic texts to follow,
+            the different interpretations of different passages and rules, or the omissions of them.
+            Catholicism was the only branch until around 1054, where they split intoEastern and Western Churches, and then continued reforming and splitting."
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Origins" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christianity is largely based on Judaism, and in fact, up to the birth of Jesus, the history of Christianity is almost exactly like Judaism. The book of Genesis is the same for both religions.
+            The differences start with Jesus. Christians believe Jesus was conceived by a virgin named Mary.
+            He began to start teaching people about his father, a God who was technically the same God as the one followed by Jews, but Jesus brought with him new teachings. He was also known for healing people and doing miracles.
+            Apart from the common people, Jesus also taught 12 disciples in private, most of them took part into creating his teachings into a complete religion."
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="Customs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most Christians have to be baptised at some point in their life, usually when they are infants.
+            The most important holiday is Easter, a festival which celebrates Jesus' resurrection.
+            Christmas is another holiday, celebrating the birth of Jesus. Most Christian holidays have changed over time to become way different than what they originally were.
+            Christmas was never about sharing gifts, and Valentines day (commemorating the life of Saint Valentinus) was never about spreading love or romance, for example.
+            These changes were brought about mostly by Western culture, and in some cases these changes are denounced by the figureheads
+            of Christianity and Catholicism."
+            />
+    </LinearLayout>
+
+</ScrollView>

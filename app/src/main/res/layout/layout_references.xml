@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Infoplease.com,. (2016). Christianity: Central Beliefs. Retrieved 28 February 2016, from http://www.infoplease.com/encyclopedia/society/christianity-central-beliefs.html"
+        android:id="@+id/textView2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Islam-guide.com,. (2002). Islam Guide: Some Basic Islamic Beliefs. Retrieved 1 March 2016, from http://www.islam-guide.com/ch3-2.htm"
+        android:id="@+id/textView3" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patheos.com,. (2016). Judaism Origins, Judaism History, Judaism Beliefs. Retrieved 28 February 2016, from http://www.patheos.com/Library/Judaism  "
+        android:id="@+id/textView4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Religionfacts.com,. (2016). ReligionFacts - Just the facts on the world&apos;s religions.. Retrieved 28 February 2016, from http://www.religionfacts.com/"
+        android:id="@+id/textView5" />
+
+</LinearLayout>
